@@ -1,0 +1,15 @@
+# numerical computations
+numpy
+
+# machine learning libraries
+insightface
+
+# image processing
+opencv-python
+
+# ONNX runtime for GPU inference
+# onnxruntime-gpu
+
+# ONNX runtime (CPU)
+onnxruntime
+
