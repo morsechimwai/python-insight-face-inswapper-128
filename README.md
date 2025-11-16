@@ -2,7 +2,7 @@
 
 โปรเจกต์ตัวอย่างนี้สาธิตขั้นตอนการสลับใบหน้าด้วย [InsightFace](https://github.com/deepinsight/insightface) โดยใช้โมเดล `inswapper_128.onnx` บน Python, OpenCV และ ONNX Runtime ผ่านโน้ตบุ๊ก `labs/face-swap.ipynb` เหมาะสำหรับงานทดลองด้าน Computer Vision หรือเพื่อใช้เป็นฐานต่อยอดระบบ face swap แบบกำหนดเอง
 
-## โครงสร้างหลักของโครงการ
+## Project Structure
 
 ```text
 face-swap/
@@ -16,14 +16,14 @@ face-swap/
 * `target_img` คือภาพปลายทางที่ต้องการแทนที่ใบหน้า
 ภายในโน้ตบุ๊กได้กำหนดภาพจาก `images/source.png` และ `images/target.png` เป็นตัวอย่าง คุณสามารถสลับหรือเปลี่ยนเส้นทางไฟล์ได้ตามต้องการ
 
-## ข้อกำหนดของระบบ
+## System Requirements
 
 - Python 3.9 ขึ้นไป (แนะนำให้ใช้ virtual environment)
 - pip สำหรับติดตั้งแพ็กเกจ
 - การ์ดจอที่รองรับ CUDA เป็นทางเลือก (สำหรับ `ctx_id=0` และ `onnxruntime-gpu`) หากไม่มีสามารถรันด้วย CPU ได้
 - Jupyter Notebook หรือ JupyterLab สำหรับเปิดไฟล์ `.ipynb`
 
-## การติดตั้งและเตรียมสภาพแวดล้อม
+## Installation and Setup
 
 1. สร้างและเปิดใช้งาน virtual environment (ตัวอย่างบน macOS / Linux)
    ```bash
