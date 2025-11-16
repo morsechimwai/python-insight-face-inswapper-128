@@ -1,6 +1,6 @@
 # Face Swap Lab (InsightFace)
 
-โปรเจกต์ตัวอย่างนี้สาธิตขั้นตอนการสลับใบหน้าด้วย [InsightFace](https://github.com/deepinsight/insightface) โดยใช้โมเดล `inswapper_128.onnx` บน Python, OpenCV และ ONNX Runtime ผ่านโน้ตบุ๊ก `labs/face-swap.ipynb` เหมาะสำหรับงานทดลองด้าน Computer Vision หรือเพื่อใช้เป็นฐานต่อยอดระบบ face swap แบบกำหนดเอง
+โปรเจกต์ตัวอย่างนี้สาธิตขั้นตอนการสลับใบหน้าด้วย [InsightFace](https://github.com/deepinsight/insightface) โดยใช้โมเดล `inswapper_128.onnx` บน Python, OpenCV และ ONNX Runtime ผ่านโน้ตบุ๊ก [`labs/face-swap.ipynb`](labs/face-swap.ipynb) เหมาะสำหรับงานทดลองด้าน Computer Vision หรือเพื่อใช้เป็นฐานต่อยอดระบบ face swap แบบกำหนดเอง
 
 ## Project Structure
 
